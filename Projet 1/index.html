@@ -23,21 +23,24 @@
 <body>
     <header>
        
-        <div class="blackheader wrapper">
+        <div class="blackheader">
+        <div class="wrapper">
             <div class="blackheader_logo">
                 <a href="index.html"> <h1 class="logo">FOOSESHOES</h1> </a>
             </div>
-
-            <div class="blackheader_search">
-                <img class="loupe" alt="Rechercher" src="img/loupe.png"/>
-            </div>
-
+            
             <div class="blackheader_login">
-                LOGIN or REGISTER
-            </div> 
+                <a href="index.html" alt="Connectez-vous ou créez un compte." class="blackheader_link">LOGIN or REGISTER</a>
+            </div>
+            
+            <div class="blackheader_search">
+                <span class="loupe"></span>
+            </div>
+        </div> 
         </div>
             
-        <div class="whiteheader wrapper">
+        <div class="whiteheader">
+        <div class="wrapper">
             <nav class="whiteheader_menu">
                 <ul class="whiteheader_menu_ul">
                     <li class="whiteheader_menu_li"> <a href="index.html">Home</a> </li>
@@ -59,20 +62,24 @@
                     <img class="star" alt="Lien vers mes favoris" src="img/star.png"/>
                 </div>
                     
-                <div class="whiteheader_fav_box">
-                    30
-                </div>
+                <a href="index.html">
+                    <div class="whiteheader_fav_box">
+                        30
+                    </div>
+                </a>
             </div>
                 
             <div class="whiteheader_panier">
                 <div class="whiteheader_panier_image">
-                    <img class="panier_gris" alt="Lien vers mon panier" src="img/panier_gris.png"/>
+                    <img class="panier_gris" src="img/panier_gris.png"/>
                 </div>
                     
-                <div class="whitheheader_panier_box">
-                    0
-                </div>
+                <a href="index.html" alt="Lien vers mon panier">                       <div class="whitheheader_panier_box">
+                        0
+                    </div>
+                </a>
             </div>
+        </div>
         </div>
     
     </header>
@@ -80,8 +87,9 @@
     
 <!-- SLIDER -->
     
-    <section class="slider wrapper">
-       
+    <section class="slider">
+    
+    <div class="wrapper">
         <div class="slider_price">
             <div class="price_box">
                 $145,99
@@ -111,11 +119,12 @@
                 <img class="panier_vert" alt="Ajouter à mon panier" src="img/panier_vert.png"/>
             </div>
         </div>
+    </div>
         
         
 <!-- MENU SLIDER -->
                
-        <nav class="slider_menu">
+        <nav class="slider_menu wrapper">
             <ul class="slider_menu_ul">
                 <li class="slider_menu_li"> 
                     <div class="slider_menu_blackrow">
@@ -123,7 +132,7 @@
                     
                     <div class="slider_menu_description">
                         <p class="slider_menu_title">Pink Shoes</p>
-                        <p>Now af $145.99</p>
+                        <p class="slider_menu_text">Now af $145.99</p>
                     </div>
                 </li>
                 
@@ -133,7 +142,7 @@
                     
                     <div class="slider_menu_description">
                         <p class="slider_menu_title">Anna Field</p>
-                        <p>Limited Edition</p>
+                        <p class="slider_menu_text">Limited Edition</p>
                     </div>
                 </li>
                 
@@ -143,7 +152,7 @@
                     
                     <div class="slider_menu_description">
                         <p class="slider_menu_title">Prada</p>
-                        <p>Summer is coming</p>
+                        <p class="slider_menu_text">Summer is coming</p>
                     </div>
                 </li>
                 
@@ -153,7 +162,7 @@
                     
                     <div class="slider_menu_description">
                         <p class="slider_menu_title">Casadei</p>
-                        <p>All colors available</p>
+                        <p class="slider_menu_text">All colors available</p>
                     </div>
                 </li>
                 
@@ -163,7 +172,7 @@
                     
                     <div class="slider_menu_description">
                         <p class="slider_menu_title">Mellow Yellow</p>
-                        <p>Free delivery</p>
+                        <p class="slider_menu_text">Free delivery</p>
                     </div>
                 </li>
             </ul>
@@ -176,6 +185,7 @@
 
     <section class="box_menu">
        
+    <div class="wrapper">   
         <div class="box_container">
             <div class="box_items">
                 ON SALE
@@ -193,15 +203,17 @@
                 MUST HAVE
             </div>
         </div>
-        
+    </div>
+    
     </section>
     
     
-<!-- SLIDER -->
+<!-- ARTICLE -->
    
     <section class="article">
-       
-        <h1>New arrivals on FooseShoes</h1>
+      
+    <div class="wrapper">   
+        <h1 class="article_title">New arrivals on FooseShoes</h1>
         <div class="show_btn">Show All</div>
         
         <div class="article_box">
@@ -213,7 +225,7 @@
                 Even et Odd
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
         </div>
@@ -227,7 +239,7 @@
                 Even et Odd
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
             
@@ -243,14 +255,14 @@
                 Buffalo Decolletè
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
         </div>
         
         <!-- SECONDE LIGNE -->
         
-        <h1>Best sellers of the month</h1>
+        <h1 class="article_title">Best sellers of the month</h1>
         <div class="show_btn">Show All</div>
         
         <div class="article_box">
@@ -276,7 +288,7 @@
                 </div>
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
         </div>
@@ -290,7 +302,7 @@
                 Even et Odd
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
         </div>
@@ -304,12 +316,13 @@
                 Buffalo Decolletè
             </div>
             
-            <div class="article_box_price">
+            <div class="price_box">
                 $145.99
             </div>
             
             <div class="article_box_promotion">OUT OF STOCK</div>
         </div>
+    </div>
         
     </section>
     
@@ -317,22 +330,22 @@
 <!-- TEXTE -->    
     
     <section class="text">
-        
-           <div class="text_box">
-            <h1>FREE SHIPPING</h1>
-            
-            <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
+    
+    <div class="wrapper">    
+        <div class="text_box">
+            <h1 class="text_box_title">FREE SHIPPING</h1>
+            <p class="text_box_text">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
         </div>
         
         <div class="text_box">
-            <h1>TESTIMONIALS</h1>
+            <h1 class="text_box_title">TESTIMONIALS</h1>
             
-            <p>vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
-            <i>John Doe</i>
+            <p class="text_box_text">vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
+            <i class="text_box_text">John Doe</i>
         </div>
         
         <div class="text_box2">
-            <h1>BLOG NEWS</h1>
+            <h1 class="text_box_title">BLOG NEWS</h1>
             
             <div class="text_box2_row">
                 <div class="text_box2_row_date">
@@ -342,8 +355,8 @@
                 </div>
                 
                 <div class="text_box2_row_text">
-                    <h1>Nice and clean. The best for uou blog!</h1>
-                    <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+                    <h1 class="text_box_title2">Nice and clean. The best for uou blog!</h1>
+                    <p class="text_box_text">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
                 </div>
             </div>
             
@@ -355,13 +368,14 @@
                 </div>
                 
                 <div class="text_box2_row_text">
-                    <h1>Nice and clean. The best for uou blog!</h1>
+                    <h1 class="text_box_text">Nice and clean. The best for uou blog!</h1>
                     
-                    <p>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+                    <p class="text_box_text">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
                 </div>
             </div>
         </div>
-        
+    </div>
+    
     </section>
     
     
@@ -369,27 +383,27 @@
 
     <section class="prefooter">
     
-        <div class="prefooter_widget">
+        <div class="prefooter_widget wrapper">
             <div class="prefooter_widget_text">
-                <h1>TEXT WIDGET</h1>
+                <h1 class="prefooter_title">TEXT WIDGET</h1>
                 
-                <p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <p class="prefooter_text">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             </div>
             
             <div class="prefooter_widget_twitter">
-                <h1>TWITTER WIDGET</h1>
+                <h1 class="prefooter_title">TWITTER WIDGET</h1>
                 
-                <i>@ericafustero Why thank you. Your work looks awesome by the way! @treemelody</i>
+                <i class="prefooter_text">@ericafustero Why thank you. Your work looks awesome by the way! @treemelody</i>
                 
-                <i>19 days ago</i>
+                <i class="prefooter_text">19 days ago</i>
                 
-                <i>@roymarvelous You can seek a refund through TF if it is not as advertised - but it is :)</i>
+                <i class="prefooter_text">@roymarvelous You can seek a refund through TF if it is not as advertised - but it is :)</i>
                 
-                <i>21 days ago</i>
+                <i class="prefooter_text">21 days ago</i>
             </div>
             
             <div class="prefooter_widget_tumblr">
-                <h1>TUMBLR WIDGET</h1>
+                <h1 class="prefooter_title">TUMBLR WIDGET</h1>
                 
                 <div class="prefooter_widget_tumblr_image"> <img src="img/tumblr1.jpeg" alt="Aller voir mon tumblr."/> </div>
                 
@@ -403,17 +417,39 @@
                 
                 <div class="prefooter_widget_tumblr_image"> <img src="img/tumblr6.jpeg" alt="Aller voir mon tumblr."/> </div>
             </div>
+        </div>
             
-            <div class="prefooter_contact">
+            <div class="prefooter_contact wrapper">
                 <div class="prefooter_newsletter">
+                    <input type="text" name="email" id="newsletter" size="2" maxlenght="70" placeholder="Enter email for newsletter"/>
                     
+                    <div class="prefooter_newsletter_button">
+                        <span class="icon-arrow-right2"></span>
+                    </div>
                 </div>
                 
-                <div class="prefooter_reseaux">
+                <div class="prefooter_social">
+                    <div class="prefooter_social_button">
+                        <span class="icon-facebook"></span>
+                    </div>
                     
+                    <div class="prefooter_social_button">
+                        <span class="icon-twitter"></span>
+                    </div>
+                    
+                    <div class="prefooter_social_button">
+                        <span class="icon-google-plus"></span>
+                    </div>
+                    
+                    <div class="prefooter_social_button">
+                        <span class="icon-linkedin2"></span>
+                    </div>
+                    
+                    <div class="prefooter_social_button">
+                        <span class="icon-flickr"></span>
+                    </div>
                 </div>
             </div>
-        </div>
                 
     </section>
     
@@ -422,6 +458,17 @@
 
     <footer>
     
+    <div class="wrapper">
+        <div class="footer_text_left">
+            <p class="footer_text">Copyright © Fooseshoes 2013.</p>
+            <p class="footer_text">Designed by EnzoLiVolti</p>
+        </div>
+        
+        <div class="footer_text_right">
+            <p class="footer_text">Home / Support / Terms and Conditions / Faqs / Contact us</p>
+        </div>
+    </div>
+        
     </footer>
     
 </body>
